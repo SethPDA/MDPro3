@@ -1,0 +1,20 @@
+namespace YgomSystem.Network
+{
+	public enum FriendCode
+	{
+		NONE = 0,
+		ERROR = 1,
+		FATAL = 2,
+		CRITICAL = 3,
+		INVALID_PARAM = 2000,
+		ACCOUNT_NOT_EXIST = 2001,
+		ACCOUNT_OWN = 2002,
+		ALREADY_FOLLOWED = 2003,
+		NO_FOLLOW_ACCOUNT = 2004,
+		FOLLOW_MAX = 2005,
+		SAME_VALUE = 2006,
+		ALREADY_BLOCKED = 2007,
+		NO_BLOCK_ACCOUNT = 2008,
+		BLOCK_MAX = 2009
+	}
+}

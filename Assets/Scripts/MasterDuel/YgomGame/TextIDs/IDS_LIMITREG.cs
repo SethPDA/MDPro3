@@ -1,0 +1,27 @@
+namespace YgomGame.TextIDs
+{
+	public enum IDS_LIMITREG
+	{
+		TITLE = 0,
+		NOTE = 1,
+		BUTTON = 2,
+		LIST = 3,
+		FORBIDDEN = 4,
+		LIMITED = 5,
+		SEMILIMIT = 6,
+		ABOUT_1_H1 = 7,
+		ABOUT_2_TEXT = 8,
+		ABOUT_3_H1 = 9,
+		ABOUT_4_TEXT = 10,
+		ABOUT_4_LIMIT_0 = 11,
+		ABOUT_4_LIMIT_1 = 12,
+		ABOUT_4_LIMIT_2 = 13,
+		ABOUT_4_LIMIT_0_DESC = 14,
+		ABOUT_4_LIMIT_1_DESC = 15,
+		ABOUT_4_LIMIT_2_DESC = 16,
+		ABOUT_5_H1 = 17,
+		ABOUT_6_TEXT = 18,
+		ABOUT_7_H1 = 19,
+		ABOUT_8_TEXT = 20
+	}
+}

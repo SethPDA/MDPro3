@@ -1,0 +1,14 @@
+namespace YgomGame.TextIDs
+{
+	public enum IDS_STRUCTURE_SELECT
+	{
+		DESC = 0,
+		MSG = 1,
+		NOTES1 = 2,
+		NOTES2 = 3,
+		ACTIONSHEET_TITLE = 4,
+		ACTIONSHEET_CARDLIST = 5,
+		ACTIONSHEET_DECIDE = 6,
+		OBTAIN_MSG = 7
+	}
+}

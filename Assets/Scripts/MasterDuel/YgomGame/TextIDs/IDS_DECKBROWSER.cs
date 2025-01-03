@@ -1,0 +1,33 @@
+namespace YgomGame.TextIDs
+{
+	public enum IDS_DECKBROWSER
+	{
+		MAIN = 0,
+		EX = 1,
+		PROPERTY = 2,
+		REGULATION_MENU = 3,
+		COPY = 4,
+		COPY_DIALOG = 5,
+		COPY_NOTES = 6,
+		COPY_DONE = 7,
+		COPY_WARN = 8,
+		DRAW = 9,
+		DRAW_REMAIN = 10,
+		DRAW_EMPTY = 11,
+		BUTTON_001 = 12,
+		BUTTON_002 = 13,
+		BUTTON_003 = 14,
+		BUTTON_004 = 15,
+		BUTTON_005 = 16,
+		BUTTON_006 = 17,
+		BUTTON_007 = 18,
+		BUTTON_008 = 19,
+		BUTTON_009 = 20,
+		BUTTON_CANCEL = 21,
+		BUTTON_OK = 22,
+		TEXT_001 = 23,
+		TEXT_002 = 24,
+		TEXT_003 = 25,
+		TEXT_004 = 26
+	}
+}

@@ -1,0 +1,17 @@
+namespace YgomSystem.Network
+{
+	public enum TournamentCode
+	{
+		NONE = 0,
+		ERROR = 1,
+		FATAL = 2,
+		CRITICAL = 3,
+		INVALID_PARAM = 1500,
+		ERR_DECK_CONFIG = 1501,
+		ERR_DECK_SAME_CARD = 1502,
+		ERR_DECK_REGULATION = 1503,
+		ERR_OUT_OF_TERM = 1504,
+		ERROR_DECK_LIMIT = 1505,
+		ERROR_FIXED_ACCESSORY = 1506
+	}
+}

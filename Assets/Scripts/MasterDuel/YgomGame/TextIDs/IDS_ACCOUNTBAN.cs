@@ -1,0 +1,13 @@
+namespace YgomGame.TextIDs
+{
+	public enum IDS_ACCOUNTBAN
+	{
+		TITLE = 0,
+		CLIENTHACK_ALERT = 1,
+		CLIENTHACK_BAN = 2,
+		PERMANENTBAN = 3,
+		ACCOUNTDELETE = 4,
+		RESEARCH_001 = 5,
+		RESEARCH_002 = 6
+	}
+}

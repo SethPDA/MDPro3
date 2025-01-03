@@ -1,0 +1,27 @@
+namespace YgomGame.TextIDs
+{
+	public enum IDS_HISTORYLOG
+	{
+		PLAY = 0,
+		SAVE = 1,
+		PROFILE = 2,
+		REPORT = 3,
+		DECK_CHECK = 4,
+		DECK_NAME = 5,
+		LOG_SAVED = 6,
+		LOG_SAVE_FAILED = 7,
+		BUTTON_CANCEL = 8,
+		BUTTON_CONFIRM = 9,
+		BUTTON_REPORT = 10,
+		BUTTON_CLOSE = 11,
+		REPORT1 = 12,
+		REPORT2 = 13,
+		REPORT3 = 14,
+		REPORT4 = 15,
+		REPORT5 = 16,
+		REPORT6 = 17,
+		REPORT7 = 18,
+		REPORT8 = 19,
+		REPORT9 = 20
+	}
+}

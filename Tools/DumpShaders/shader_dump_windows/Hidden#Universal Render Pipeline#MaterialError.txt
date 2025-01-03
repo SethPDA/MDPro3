@@ -1,0 +1,1769 @@
+0 Shader Base
+ 1 string m_Name = ""
+ 0 SerializedShader m_ParsedForm
+  0 SerializedProperties m_PropInfo
+   0 vector m_Props
+    1 Array Array (0 items)
+     0 int size = 0
+  0 vector m_SubShaders
+   1 Array Array (1 items)
+    0 int size = 1
+    [0]
+     0 SerializedSubShader data
+      0 vector m_Passes
+       1 Array Array (1 items)
+        0 int size = 1
+        [0]
+         0 SerializedPass data
+          0 vector m_EditorDataHash
+           1 Array Array (1 items)
+            0 int size = 1
+            [0]
+             0 Hash128 data
+              0 UInt8 bytes[0] = 5
+              0 UInt8 bytes[1] = 207
+              0 UInt8 bytes[2] = 101
+              0 UInt8 bytes[3] = 187
+              0 UInt8 bytes[4] = 46
+              0 UInt8 bytes[5] = 202
+              0 UInt8 bytes[6] = 32
+              0 UInt8 bytes[7] = 123
+              0 UInt8 bytes[8] = 140
+              0 UInt8 bytes[9] = 60
+              0 UInt8 bytes[10] = 28
+              0 UInt8 bytes[11] = 151
+              0 UInt8 bytes[12] = 168
+              0 UInt8 bytes[13] = 202
+              0 UInt8 bytes[14] = 184
+              0 UInt8 bytes[15] = 208
+          0 vector m_Platforms
+           1 Array Array (1 items)
+            0 int size = 1
+            [0]
+             0 UInt8 data = 4
+          0 vector m_LocalKeywordMask
+           1 Array Array (0 items)
+            0 int size = 0
+          0 vector m_GlobalKeywordMask
+           1 Array Array (4 items)
+            0 int size = 4
+            [0]
+             0 UInt16 data = 4
+            [1]
+             0 UInt16 data = 5
+            [2]
+             0 UInt16 data = 6
+            [3]
+             0 UInt16 data = 7
+          0 map m_NameIndices
+           0 Array Array (8 items)
+            0 int size = 8
+            [0]
+             0 pair data
+              1 string first = "$Globals"
+              0 int second = 0
+            [1]
+             0 pair data
+              1 string first = "DOTS_INSTANCING_ON"
+              0 int second = 4
+            [2]
+             0 pair data
+              1 string first = "STEREO_INSTANCING_ON"
+              0 int second = 5
+            [3]
+             0 pair data
+              1 string first = "STEREO_MULTIVIEW_ON"
+              0 int second = 6
+            [4]
+             0 pair data
+              1 string first = "UNITY_SINGLE_PASS_STEREO"
+              0 int second = 7
+            [5]
+             0 pair data
+              1 string first = "UnityPerDraw"
+              0 int second = 1
+            [6]
+             0 pair data
+              1 string first = "unity_MatrixVP"
+              0 int second = 2
+            [7]
+             0 pair data
+              1 string first = "unity_ObjectToWorld"
+              0 int second = 3
+          0 int m_Type = 0
+          0 SerializedShaderState m_State
+           1 string m_Name = ""
+           0 SerializedShaderRTBlendState rtBlend0
+            0 SerializedShaderFloatValue srcBlend
+             0 float val = 1
+             1 string name = "<noninit>"
+            0 SerializedShaderFloatValue destBlend
+             0 float val = 0
+             1 string name = "<noninit>"
+            0 SerializedShaderFloatValue srcBlendAlpha
+             0 float val = 1
+             1 string name = "<noninit>"
+            0 SerializedShaderFloatValue destBlendAlpha
+             0 float val = 0
+             1 string name = "<noninit>"
+            0 SerializedShaderFloatValue blendOp
+             0 float val = 0
+             1 string name = "<noninit>"
+            0 SerializedShaderFloatValue blendOpAlpha
+             0 float val = 0
+             1 string name = "<noninit>"
+            0 SerializedShaderFloatValue colMask
+             0 float val = 15
+             1 string name = "<noninit>"
+           0 SerializedShaderRTBlendState rtBlend1
+            0 SerializedShaderFloatValue srcBlend
+             0 float val = 1
+             1 string name = "<noninit>"
+            0 SerializedShaderFloatValue destBlend
+             0 float val = 0
+             1 string name = "<noninit>"
+            0 SerializedShaderFloatValue srcBlendAlpha
+             0 float val = 1
+             1 string name = "<noninit>"
+            0 SerializedShaderFloatValue destBlendAlpha
+             0 float val = 0
+             1 string name = "<noninit>"
+            0 SerializedShaderFloatValue blendOp
+             0 float val = 0
+             1 string name = "<noninit>"
+            0 SerializedShaderFloatValue blendOpAlpha
+             0 float val = 0
+             1 string name = "<noninit>"
+            0 SerializedShaderFloatValue colMask
+             0 float val = 15
+             1 string name = "<noninit>"
+           0 SerializedShaderRTBlendState rtBlend2
+            0 SerializedShaderFloatValue srcBlend
+             0 float val = 1
+             1 string name = "<noninit>"
+            0 SerializedShaderFloatValue destBlend
+             0 float val = 0
+             1 string name = "<noninit>"
+            0 SerializedShaderFloatValue srcBlendAlpha
+             0 float val = 1
+             1 string name = "<noninit>"
+            0 SerializedShaderFloatValue destBlendAlpha
+             0 float val = 0
+             1 string name = "<noninit>"
+            0 SerializedShaderFloatValue blendOp
+             0 float val = 0
+             1 string name = "<noninit>"
+            0 SerializedShaderFloatValue blendOpAlpha
+             0 float val = 0
+             1 string name = "<noninit>"
+            0 SerializedShaderFloatValue colMask
+             0 float val = 15
+             1 string name = "<noninit>"
+           0 SerializedShaderRTBlendState rtBlend3
+            0 SerializedShaderFloatValue srcBlend
+             0 float val = 1
+             1 string name = "<noninit>"
+            0 SerializedShaderFloatValue destBlend
+             0 float val = 0
+             1 string name = "<noninit>"
+            0 SerializedShaderFloatValue srcBlendAlpha
+             0 float val = 1
+             1 string name = "<noninit>"
+            0 SerializedShaderFloatValue destBlendAlpha
+             0 float val = 0
+             1 string name = "<noninit>"
+            0 SerializedShaderFloatValue blendOp
+             0 float val = 0
+             1 string name = "<noninit>"
+            0 SerializedShaderFloatValue blendOpAlpha
+             0 float val = 0
+             1 string name = "<noninit>"
+            0 SerializedShaderFloatValue colMask
+             0 float val = 15
+             1 string name = "<noninit>"
+           0 SerializedShaderRTBlendState rtBlend4
+            0 SerializedShaderFloatValue srcBlend
+             0 float val = 1
+             1 string name = "<noninit>"
+            0 SerializedShaderFloatValue destBlend
+             0 float val = 0
+             1 string name = "<noninit>"
+            0 SerializedShaderFloatValue srcBlendAlpha
+             0 float val = 1
+             1 string name = "<noninit>"
+            0 SerializedShaderFloatValue destBlendAlpha
+             0 float val = 0
+             1 string name = "<noninit>"
+            0 SerializedShaderFloatValue blendOp
+             0 float val = 0
+             1 string name = "<noninit>"
+            0 SerializedShaderFloatValue blendOpAlpha
+             0 float val = 0
+             1 string name = "<noninit>"
+            0 SerializedShaderFloatValue colMask
+             0 float val = 15
+             1 string name = "<noninit>"
+           0 SerializedShaderRTBlendState rtBlend5
+            0 SerializedShaderFloatValue srcBlend
+             0 float val = 1
+             1 string name = "<noninit>"
+            0 SerializedShaderFloatValue destBlend
+             0 float val = 0
+             1 string name = "<noninit>"
+            0 SerializedShaderFloatValue srcBlendAlpha
+             0 float val = 1
+             1 string name = "<noninit>"
+            0 SerializedShaderFloatValue destBlendAlpha
+             0 float val = 0
+             1 string name = "<noninit>"
+            0 SerializedShaderFloatValue blendOp
+             0 float val = 0
+             1 string name = "<noninit>"
+            0 SerializedShaderFloatValue blendOpAlpha
+             0 float val = 0
+             1 string name = "<noninit>"
+            0 SerializedShaderFloatValue colMask
+             0 float val = 15
+             1 string name = "<noninit>"
+           0 SerializedShaderRTBlendState rtBlend6
+            0 SerializedShaderFloatValue srcBlend
+             0 float val = 1
+             1 string name = "<noninit>"
+            0 SerializedShaderFloatValue destBlend
+             0 float val = 0
+             1 string name = "<noninit>"
+            0 SerializedShaderFloatValue srcBlendAlpha
+             0 float val = 1
+             1 string name = "<noninit>"
+            0 SerializedShaderFloatValue destBlendAlpha
+             0 float val = 0
+             1 string name = "<noninit>"
+            0 SerializedShaderFloatValue blendOp
+             0 float val = 0
+             1 string name = "<noninit>"
+            0 SerializedShaderFloatValue blendOpAlpha
+             0 float val = 0
+             1 string name = "<noninit>"
+            0 SerializedShaderFloatValue colMask
+             0 float val = 15
+             1 string name = "<noninit>"
+           0 SerializedShaderRTBlendState rtBlend7
+            0 SerializedShaderFloatValue srcBlend
+             0 float val = 1
+             1 string name = "<noninit>"
+            0 SerializedShaderFloatValue destBlend
+             0 float val = 0
+             1 string name = "<noninit>"
+            0 SerializedShaderFloatValue srcBlendAlpha
+             0 float val = 1
+             1 string name = "<noninit>"
+            0 SerializedShaderFloatValue destBlendAlpha
+             0 float val = 0
+             1 string name = "<noninit>"
+            0 SerializedShaderFloatValue blendOp
+             0 float val = 0
+             1 string name = "<noninit>"
+            0 SerializedShaderFloatValue blendOpAlpha
+             0 float val = 0
+             1 string name = "<noninit>"
+            0 SerializedShaderFloatValue colMask
+             0 float val = 15
+             1 string name = "<noninit>"
+           1 bool rtSeparateBlend = false
+           0 SerializedShaderFloatValue zClip
+            0 float val = 1
+            1 string name = "<noninit>"
+           0 SerializedShaderFloatValue zTest
+            0 float val = 4
+            1 string name = "<noninit>"
+           0 SerializedShaderFloatValue zWrite
+            0 float val = 1
+            1 string name = "<noninit>"
+           0 SerializedShaderFloatValue culling
+            0 float val = 2
+            1 string name = "<noninit>"
+           0 SerializedShaderFloatValue conservative
+            0 float val = 0
+            1 string name = "<noninit>"
+           0 SerializedShaderFloatValue offsetFactor
+            0 float val = 0
+            1 string name = "<noninit>"
+           0 SerializedShaderFloatValue offsetUnits
+            0 float val = 0
+            1 string name = "<noninit>"
+           0 SerializedShaderFloatValue alphaToMask
+            0 float val = 0
+            1 string name = "<noninit>"
+           0 SerializedStencilOp stencilOp
+            0 SerializedShaderFloatValue pass
+             0 float val = 0
+             1 string name = "<noninit>"
+            0 SerializedShaderFloatValue fail
+             0 float val = 0
+             1 string name = "<noninit>"
+            0 SerializedShaderFloatValue zFail
+             0 float val = 0
+             1 string name = "<noninit>"
+            0 SerializedShaderFloatValue comp
+             0 float val = 8
+             1 string name = "<noninit>"
+           0 SerializedStencilOp stencilOpFront
+            0 SerializedShaderFloatValue pass
+             0 float val = 0
+             1 string name = "<noninit>"
+            0 SerializedShaderFloatValue fail
+             0 float val = 0
+             1 string name = "<noninit>"
+            0 SerializedShaderFloatValue zFail
+             0 float val = 0
+             1 string name = "<noninit>"
+            0 SerializedShaderFloatValue comp
+             0 float val = 8
+             1 string name = "<noninit>"
+           0 SerializedStencilOp stencilOpBack
+            0 SerializedShaderFloatValue pass
+             0 float val = 0
+             1 string name = "<noninit>"
+            0 SerializedShaderFloatValue fail
+             0 float val = 0
+             1 string name = "<noninit>"
+            0 SerializedShaderFloatValue zFail
+             0 float val = 0
+             1 string name = "<noninit>"
+            0 SerializedShaderFloatValue comp
+             0 float val = 8
+             1 string name = "<noninit>"
+           0 SerializedShaderFloatValue stencilReadMask
+            0 float val = 255
+            1 string name = "<noninit>"
+           0 SerializedShaderFloatValue stencilWriteMask
+            0 float val = 255
+            1 string name = "<noninit>"
+           0 SerializedShaderFloatValue stencilRef
+            0 float val = 0
+            1 string name = "<noninit>"
+           0 SerializedShaderFloatValue fogStart
+            0 float val = 0
+            1 string name = "unity_FogStart"
+           0 SerializedShaderFloatValue fogEnd
+            0 float val = 0
+            1 string name = "unity_FogEnd"
+           0 SerializedShaderFloatValue fogDensity
+            0 float val = 0
+            1 string name = "unity_FogDensity"
+           0 SerializedShaderVectorValue fogColor
+            0 SerializedShaderFloatValue x
+             0 float val = 0
+             1 string name = "<noninit>"
+            0 SerializedShaderFloatValue y
+             0 float val = 0
+             1 string name = "<noninit>"
+            0 SerializedShaderFloatValue z
+             0 float val = 0
+             1 string name = "<noninit>"
+            0 SerializedShaderFloatValue w
+             0 float val = 0
+             1 string name = "<noninit>"
+            1 string name = "unity_FogColor"
+           0 int fogMode = -1
+           0 int gpuProgramID = 62737
+           0 SerializedTagMap m_Tags
+            0 map tags
+             0 Array Array (0 items)
+              0 int size = 0
+           0 int m_LOD = 0
+           1 bool lighting = false
+          0 unsigned int m_ProgramMask = 6
+          0 SerializedProgram progVertex
+           0 vector m_SubPrograms
+            1 Array Array (1 items)
+             0 int size = 1
+             [0]
+              0 SerializedSubProgram data
+               0 unsigned int m_BlobIndex = 0
+               0 ParserBindChannels m_Channels
+                1 vector m_Channels
+                 1 Array Array (1 items)
+                  0 int size = 1
+                  [0]
+                   0 ShaderBindChannel data
+                    0 SInt8 source = 0
+                    0 SInt8 target = 0
+                0 int m_SourceMap = 1
+               0 vector m_GlobalKeywordIndices
+                1 Array Array (0 items)
+                 0 int size = 0
+               0 vector m_LocalKeywordIndices
+                1 Array Array (0 items)
+                 0 int size = 0
+               0 SInt8 m_ShaderHardwareTier = 3
+               1 SInt8 m_GpuProgramType = 16
+               0 SerializedProgramParameters m_Parameters
+                0 vector m_VectorParams
+                 1 Array Array (0 items)
+                  0 int size = 0
+                0 vector m_MatrixParams
+                 1 Array Array (0 items)
+                  0 int size = 0
+                0 vector m_TextureParams
+                 1 Array Array (0 items)
+                  0 int size = 0
+                0 vector m_BufferParams
+                 1 Array Array (0 items)
+                  0 int size = 0
+                0 vector m_ConstantBuffers
+                 1 Array Array (0 items)
+                  0 int size = 0
+                0 vector m_ConstantBufferBindings
+                 1 Array Array (0 items)
+                  0 int size = 0
+                0 vector m_UAVParams
+                 1 Array Array (0 items)
+                  0 int size = 0
+                0 vector m_Samplers
+                 1 Array Array (0 items)
+                  0 int size = 0
+               0 int m_ShaderRequirements = 1101547
+           0 SerializedProgramParameters m_CommonParameters
+            0 vector m_VectorParams
+             1 Array Array (0 items)
+              0 int size = 0
+            0 vector m_MatrixParams
+             1 Array Array (0 items)
+              0 int size = 0
+            0 vector m_TextureParams
+             1 Array Array (0 items)
+              0 int size = 0
+            0 vector m_BufferParams
+             1 Array Array (0 items)
+              0 int size = 0
+            0 vector m_ConstantBuffers
+             1 Array Array (2 items)
+              0 int size = 2
+              [0]
+               0 ConstantBuffer data
+                0 int m_NameIndex = 0
+                0 vector m_MatrixParams
+                 1 Array Array (1 items)
+                  0 int size = 1
+                  [0]
+                   0 MatrixParameter data
+                    0 int m_NameIndex = 2
+                    0 int m_Index = 1104
+                    0 int m_ArraySize = 0
+                    0 SInt8 m_Type = 0
+                    1 SInt8 m_RowCount = 4
+                0 vector m_VectorParams
+                 1 Array Array (0 items)
+                  0 int size = 0
+                0 vector m_StructParams
+                 1 Array Array (0 items)
+                  0 int size = 0
+                0 int m_Size = 1920
+                1 bool m_IsPartialCB = true
+              [1]
+               0 ConstantBuffer data
+                0 int m_NameIndex = 1
+                0 vector m_MatrixParams
+                 1 Array Array (1 items)
+                  0 int size = 1
+                  [0]
+                   0 MatrixParameter data
+                    0 int m_NameIndex = 3
+                    0 int m_Index = 0
+                    0 int m_ArraySize = 0
+                    0 SInt8 m_Type = 0
+                    1 SInt8 m_RowCount = 4
+                0 vector m_VectorParams
+                 1 Array Array (0 items)
+                  0 int size = 0
+                0 vector m_StructParams
+                 1 Array Array (0 items)
+                  0 int size = 0
+                0 int m_Size = 384
+                1 bool m_IsPartialCB = true
+            0 vector m_ConstantBufferBindings
+             1 Array Array (2 items)
+              0 int size = 2
+              [0]
+               0 BufferBinding data
+                0 int m_NameIndex = 0
+                0 int m_Index = 0
+                0 int m_ArraySize = 1
+              [1]
+               0 BufferBinding data
+                0 int m_NameIndex = 1
+                0 int m_Index = 1
+                0 int m_ArraySize = 1
+            0 vector m_UAVParams
+             1 Array Array (0 items)
+              0 int size = 0
+            0 vector m_Samplers
+             1 Array Array (0 items)
+              0 int size = 0
+          0 SerializedProgram progFragment
+           0 vector m_SubPrograms
+            1 Array Array (1 items)
+             0 int size = 1
+             [0]
+              0 SerializedSubProgram data
+               0 unsigned int m_BlobIndex = 1
+               0 ParserBindChannels m_Channels
+                1 vector m_Channels
+                 1 Array Array (0 items)
+                  0 int size = 0
+                0 int m_SourceMap = 0
+               0 vector m_GlobalKeywordIndices
+                1 Array Array (0 items)
+                 0 int size = 0
+               0 vector m_LocalKeywordIndices
+                1 Array Array (0 items)
+                 0 int size = 0
+               0 SInt8 m_ShaderHardwareTier = 3
+               1 SInt8 m_GpuProgramType = 18
+               0 SerializedProgramParameters m_Parameters
+                0 vector m_VectorParams
+                 1 Array Array (0 items)
+                  0 int size = 0
+                0 vector m_MatrixParams
+                 1 Array Array (0 items)
+                  0 int size = 0
+                0 vector m_TextureParams
+                 1 Array Array (0 items)
+                  0 int size = 0
+                0 vector m_BufferParams
+                 1 Array Array (0 items)
+                  0 int size = 0
+                0 vector m_ConstantBuffers
+                 1 Array Array (0 items)
+                  0 int size = 0
+                0 vector m_ConstantBufferBindings
+                 1 Array Array (0 items)
+                  0 int size = 0
+                0 vector m_UAVParams
+                 1 Array Array (0 items)
+                  0 int size = 0
+                0 vector m_Samplers
+                 1 Array Array (0 items)
+                  0 int size = 0
+               0 int m_ShaderRequirements = 1101547
+           0 SerializedProgramParameters m_CommonParameters
+            0 vector m_VectorParams
+             1 Array Array (0 items)
+              0 int size = 0
+            0 vector m_MatrixParams
+             1 Array Array (0 items)
+              0 int size = 0
+            0 vector m_TextureParams
+             1 Array Array (0 items)
+              0 int size = 0
+            0 vector m_BufferParams
+             1 Array Array (0 items)
+              0 int size = 0
+            0 vector m_ConstantBuffers
+             1 Array Array (0 items)
+              0 int size = 0
+            0 vector m_ConstantBufferBindings
+             1 Array Array (0 items)
+              0 int size = 0
+            0 vector m_UAVParams
+             1 Array Array (0 items)
+              0 int size = 0
+            0 vector m_Samplers
+             1 Array Array (0 items)
+              0 int size = 0
+          0 SerializedProgram progGeometry
+           0 vector m_SubPrograms
+            1 Array Array (0 items)
+             0 int size = 0
+           0 SerializedProgramParameters m_CommonParameters
+            0 vector m_VectorParams
+             1 Array Array (0 items)
+              0 int size = 0
+            0 vector m_MatrixParams
+             1 Array Array (0 items)
+              0 int size = 0
+            0 vector m_TextureParams
+             1 Array Array (0 items)
+              0 int size = 0
+            0 vector m_BufferParams
+             1 Array Array (0 items)
+              0 int size = 0
+            0 vector m_ConstantBuffers
+             1 Array Array (0 items)
+              0 int size = 0
+            0 vector m_ConstantBufferBindings
+             1 Array Array (0 items)
+              0 int size = 0
+            0 vector m_UAVParams
+             1 Array Array (0 items)
+              0 int size = 0
+            0 vector m_Samplers
+             1 Array Array (0 items)
+              0 int size = 0
+          0 SerializedProgram progHull
+           0 vector m_SubPrograms
+            1 Array Array (0 items)
+             0 int size = 0
+           0 SerializedProgramParameters m_CommonParameters
+            0 vector m_VectorParams
+             1 Array Array (0 items)
+              0 int size = 0
+            0 vector m_MatrixParams
+             1 Array Array (0 items)
+              0 int size = 0
+            0 vector m_TextureParams
+             1 Array Array (0 items)
+              0 int size = 0
+            0 vector m_BufferParams
+             1 Array Array (0 items)
+              0 int size = 0
+            0 vector m_ConstantBuffers
+             1 Array Array (0 items)
+              0 int size = 0
+            0 vector m_ConstantBufferBindings
+             1 Array Array (0 items)
+              0 int size = 0
+            0 vector m_UAVParams
+             1 Array Array (0 items)
+              0 int size = 0
+            0 vector m_Samplers
+             1 Array Array (0 items)
+              0 int size = 0
+          0 SerializedProgram progDomain
+           0 vector m_SubPrograms
+            1 Array Array (0 items)
+             0 int size = 0
+           0 SerializedProgramParameters m_CommonParameters
+            0 vector m_VectorParams
+             1 Array Array (0 items)
+              0 int size = 0
+            0 vector m_MatrixParams
+             1 Array Array (0 items)
+              0 int size = 0
+            0 vector m_TextureParams
+             1 Array Array (0 items)
+              0 int size = 0
+            0 vector m_BufferParams
+             1 Array Array (0 items)
+              0 int size = 0
+            0 vector m_ConstantBuffers
+             1 Array Array (0 items)
+              0 int size = 0
+            0 vector m_ConstantBufferBindings
+             1 Array Array (0 items)
+              0 int size = 0
+            0 vector m_UAVParams
+             1 Array Array (0 items)
+              0 int size = 0
+            0 vector m_Samplers
+             1 Array Array (0 items)
+              0 int size = 0
+          0 SerializedProgram progRayTracing
+           0 vector m_SubPrograms
+            1 Array Array (0 items)
+             0 int size = 0
+           0 SerializedProgramParameters m_CommonParameters
+            0 vector m_VectorParams
+             1 Array Array (0 items)
+              0 int size = 0
+            0 vector m_MatrixParams
+             1 Array Array (0 items)
+              0 int size = 0
+            0 vector m_TextureParams
+             1 Array Array (0 items)
+              0 int size = 0
+            0 vector m_BufferParams
+             1 Array Array (0 items)
+              0 int size = 0
+            0 vector m_ConstantBuffers
+             1 Array Array (0 items)
+              0 int size = 0
+            0 vector m_ConstantBufferBindings
+             1 Array Array (0 items)
+              0 int size = 0
+            0 vector m_UAVParams
+             1 Array Array (0 items)
+              0 int size = 0
+            0 vector m_Samplers
+             1 Array Array (0 items)
+              0 int size = 0
+          0 bool m_HasInstancingVariant = false
+          1 bool m_HasProceduralInstancingVariant = false
+          1 string m_UseName = ""
+          1 string m_Name = ""
+          1 string m_TextureName = ""
+          0 SerializedTagMap m_Tags
+           0 map tags
+            0 Array Array (0 items)
+             0 int size = 0
+      0 SerializedTagMap m_Tags
+       0 map tags
+        0 Array Array (0 items)
+         0 int size = 0
+      0 int m_LOD = 0
+  1 string m_Name = "Hidden/Universal Render Pipeline/MaterialError"
+  1 string m_CustomEditorName = ""
+  1 string m_FallbackName = ""
+  0 vector m_Dependencies
+   1 Array Array (0 items)
+    0 int size = 0
+  1 bool m_DisableNoSubshadersMessage = true
+ 0 vector platforms
+  1 Array Array (1 items)
+   0 int size = 1
+   [0]
+    0 unsigned int data = 4
+ 0 vector offsets
+  1 Array Array (1 items)
+   0 int size = 1
+   [0]
+    0 vector data
+     1 Array Array (1 items)
+      0 int size = 1
+      [0]
+       0 unsigned int data = 0
+ 0 vector compressedLengths
+  1 Array Array (1 items)
+   0 int size = 1
+   [0]
+    0 vector data
+     1 Array Array (1 items)
+      0 int size = 1
+      [0]
+       0 unsigned int data = 508
+ 0 vector decompressedLengths
+  1 Array Array (1 items)
+   0 int size = 1
+   [0]
+    0 vector data
+     1 Array Array (1 items)
+      0 int size = 1
+      [0]
+       0 unsigned int data = 1056
+ 0 vector compressedBlob
+  1 Array Array (508 items)
+   0 int size = 508
+   [0]
+    0 UInt8 data = 177
+   [1]
+    0 UInt8 data = 2
+   [2]
+    0 UInt8 data = 0
+   [3]
+    0 UInt8 data = 0
+   [4]
+    0 UInt8 data = 0
+   [5]
+    0 UInt8 data = 28
+   [6]
+    0 UInt8 data = 0
+   [7]
+    0 UInt8 data = 0
+   [8]
+    0 UInt8 data = 0
+   [9]
+    0 UInt8 data = 192
+   [10]
+    0 UInt8 data = 2
+   [11]
+    0 UInt8 data = 0
+   [12]
+    0 UInt8 data = 1
+   [13]
+    0 UInt8 data = 0
+   [14]
+    0 UInt8 data = 98
+   [15]
+    0 UInt8 data = 220
+   [16]
+    0 UInt8 data = 2
+   [17]
+    0 UInt8 data = 0
+   [18]
+    0 UInt8 data = 0
+   [19]
+    0 UInt8 data = 68
+   [20]
+    0 UInt8 data = 1
+   [21]
+    0 UInt8 data = 12
+   [22]
+    0 UInt8 data = 0
+   [23]
+    0 UInt8 data = 166
+   [24]
+    0 UInt8 data = 60
+   [25]
+    0 UInt8 data = 81
+   [26]
+    0 UInt8 data = 7
+   [27]
+    0 UInt8 data = 12
+   [28]
+    0 UInt8 data = 16
+   [29]
+    0 UInt8 data = 0
+   [30]
+    0 UInt8 data = 0
+   [31]
+    0 UInt8 data = 0
+   [32]
+    0 UInt8 data = 8
+   [33]
+    0 UInt8 data = 0
+   [34]
+    0 UInt8 data = 1
+   [35]
+    0 UInt8 data = 0
+   [36]
+    0 UInt8 data = 23
+   [37]
+    0 UInt8 data = 2
+   [38]
+    0 UInt8 data = 12
+   [39]
+    0 UInt8 data = 0
+   [40]
+    0 UInt8 data = 32
+   [41]
+    0 UInt8 data = 62
+   [42]
+    0 UInt8 data = 2
+   [43]
+    0 UInt8 data = 16
+   [44]
+    0 UInt8 data = 0
+   [45]
+    0 UInt8 data = 47
+   [46]
+    0 UInt8 data = 2
+   [47]
+    0 UInt8 data = 0
+   [48]
+    0 UInt8 data = 1
+   [49]
+    0 UInt8 data = 0
+   [50]
+    0 UInt8 data = 15
+   [51]
+    0 UInt8 data = 240
+   [52]
+    0 UInt8 data = 5
+   [53]
+    0 UInt8 data = 68
+   [54]
+    0 UInt8 data = 88
+   [55]
+    0 UInt8 data = 66
+   [56]
+    0 UInt8 data = 67
+   [57]
+    0 UInt8 data = 94
+   [58]
+    0 UInt8 data = 245
+   [59]
+    0 UInt8 data = 144
+   [60]
+    0 UInt8 data = 166
+   [61]
+    0 UInt8 data = 83
+   [62]
+    0 UInt8 data = 64
+   [63]
+    0 UInt8 data = 210
+   [64]
+    0 UInt8 data = 36
+   [65]
+    0 UInt8 data = 169
+   [66]
+    0 UInt8 data = 117
+   [67]
+    0 UInt8 data = 32
+   [68]
+    0 UInt8 data = 10
+   [69]
+    0 UInt8 data = 99
+   [70]
+    0 UInt8 data = 41
+   [71]
+    0 UInt8 data = 145
+   [72]
+    0 UInt8 data = 245
+   [73]
+    0 UInt8 data = 101
+   [74]
+    0 UInt8 data = 0
+   [75]
+    0 UInt8 data = 240
+   [76]
+    0 UInt8 data = 9
+   [77]
+    0 UInt8 data = 24
+   [78]
+    0 UInt8 data = 2
+   [79]
+    0 UInt8 data = 0
+   [80]
+    0 UInt8 data = 0
+   [81]
+    0 UInt8 data = 3
+   [82]
+    0 UInt8 data = 0
+   [83]
+    0 UInt8 data = 0
+   [84]
+    0 UInt8 data = 0
+   [85]
+    0 UInt8 data = 44
+   [86]
+    0 UInt8 data = 0
+   [87]
+    0 UInt8 data = 0
+   [88]
+    0 UInt8 data = 0
+   [89]
+    0 UInt8 data = 96
+   [90]
+    0 UInt8 data = 0
+   [91]
+    0 UInt8 data = 0
+   [92]
+    0 UInt8 data = 0
+   [93]
+    0 UInt8 data = 148
+   [94]
+    0 UInt8 data = 0
+   [95]
+    0 UInt8 data = 0
+   [96]
+    0 UInt8 data = 0
+   [97]
+    0 UInt8 data = 73
+   [98]
+    0 UInt8 data = 83
+   [99]
+    0 UInt8 data = 71
+   [100]
+    0 UInt8 data = 78
+   [101]
+    0 UInt8 data = 16
+   [102]
+    0 UInt8 data = 0
+   [103]
+    0 UInt8 data = 19
+   [104]
+    0 UInt8 data = 1
+   [105]
+    0 UInt8 data = 122
+   [106]
+    0 UInt8 data = 0
+   [107]
+    0 UInt8 data = 23
+   [108]
+    0 UInt8 data = 32
+   [109]
+    0 UInt8 data = 72
+   [110]
+    0 UInt8 data = 0
+   [111]
+    0 UInt8 data = 19
+   [112]
+    0 UInt8 data = 3
+   [113]
+    0 UInt8 data = 8
+   [114]
+    0 UInt8 data = 0
+   [115]
+    0 UInt8 data = 255
+   [116]
+    0 UInt8 data = 2
+   [117]
+    0 UInt8 data = 15
+   [118]
+    0 UInt8 data = 7
+   [119]
+    0 UInt8 data = 0
+   [120]
+    0 UInt8 data = 0
+   [121]
+    0 UInt8 data = 80
+   [122]
+    0 UInt8 data = 79
+   [123]
+    0 UInt8 data = 83
+   [124]
+    0 UInt8 data = 73
+   [125]
+    0 UInt8 data = 84
+   [126]
+    0 UInt8 data = 73
+   [127]
+    0 UInt8 data = 79
+   [128]
+    0 UInt8 data = 78
+   [129]
+    0 UInt8 data = 0
+   [130]
+    0 UInt8 data = 171
+   [131]
+    0 UInt8 data = 171
+   [132]
+    0 UInt8 data = 171
+   [133]
+    0 UInt8 data = 79
+   [134]
+    0 UInt8 data = 52
+   [135]
+    0 UInt8 data = 0
+   [136]
+    0 UInt8 data = 4
+   [137]
+    0 UInt8 data = 24
+   [138]
+    0 UInt8 data = 1
+   [139]
+    0 UInt8 data = 52
+   [140]
+    0 UInt8 data = 0
+   [141]
+    0 UInt8 data = 101
+   [142]
+    0 UInt8 data = 0
+   [143]
+    0 UInt8 data = 0
+   [144]
+    0 UInt8 data = 0
+   [145]
+    0 UInt8 data = 83
+   [146]
+    0 UInt8 data = 86
+   [147]
+    0 UInt8 data = 95
+   [148]
+    0 UInt8 data = 55
+   [149]
+    0 UInt8 data = 0
+   [150]
+    0 UInt8 data = 242
+   [151]
+    0 UInt8 data = 11
+   [152]
+    0 UInt8 data = 83
+   [153]
+    0 UInt8 data = 72
+   [154]
+    0 UInt8 data = 69
+   [155]
+    0 UInt8 data = 88
+   [156]
+    0 UInt8 data = 124
+   [157]
+    0 UInt8 data = 1
+   [158]
+    0 UInt8 data = 0
+   [159]
+    0 UInt8 data = 0
+   [160]
+    0 UInt8 data = 80
+   [161]
+    0 UInt8 data = 0
+   [162]
+    0 UInt8 data = 1
+   [163]
+    0 UInt8 data = 0
+   [164]
+    0 UInt8 data = 95
+   [165]
+    0 UInt8 data = 0
+   [166]
+    0 UInt8 data = 0
+   [167]
+    0 UInt8 data = 0
+   [168]
+    0 UInt8 data = 106
+   [169]
+    0 UInt8 data = 8
+   [170]
+    0 UInt8 data = 0
+   [171]
+    0 UInt8 data = 1
+   [172]
+    0 UInt8 data = 89
+   [173]
+    0 UInt8 data = 0
+   [174]
+    0 UInt8 data = 0
+   [175]
+    0 UInt8 data = 4
+   [176]
+    0 UInt8 data = 70
+   [177]
+    0 UInt8 data = 142
+   [178]
+    0 UInt8 data = 62
+   [179]
+    0 UInt8 data = 0
+   [180]
+    0 UInt8 data = 68
+   [181]
+    0 UInt8 data = 73
+   [182]
+    0 UInt8 data = 0
+   [183]
+    0 UInt8 data = 0
+   [184]
+    0 UInt8 data = 0
+   [185]
+    0 UInt8 data = 16
+   [186]
+    0 UInt8 data = 0
+   [187]
+    0 UInt8 data = 0
+   [188]
+    0 UInt8 data = 72
+   [189]
+    0 UInt8 data = 0
+   [190]
+    0 UInt8 data = 48
+   [191]
+    0 UInt8 data = 4
+   [192]
+    0 UInt8 data = 0
+   [193]
+    0 UInt8 data = 0
+   [194]
+    0 UInt8 data = 40
+   [195]
+    0 UInt8 data = 0
+   [196]
+    0 UInt8 data = 65
+   [197]
+    0 UInt8 data = 3
+   [198]
+    0 UInt8 data = 114
+   [199]
+    0 UInt8 data = 16
+   [200]
+    0 UInt8 data = 16
+   [201]
+    0 UInt8 data = 32
+   [202]
+    0 UInt8 data = 0
+   [203]
+    0 UInt8 data = 117
+   [204]
+    0 UInt8 data = 103
+   [205]
+    0 UInt8 data = 0
+   [206]
+    0 UInt8 data = 0
+   [207]
+    0 UInt8 data = 4
+   [208]
+    0 UInt8 data = 242
+   [209]
+    0 UInt8 data = 32
+   [210]
+    0 UInt8 data = 16
+   [211]
+    0 UInt8 data = 104
+   [212]
+    0 UInt8 data = 0
+   [213]
+    0 UInt8 data = 64
+   [214]
+    0 UInt8 data = 104
+   [215]
+    0 UInt8 data = 0
+   [216]
+    0 UInt8 data = 0
+   [217]
+    0 UInt8 data = 2
+   [218]
+    0 UInt8 data = 12
+   [219]
+    0 UInt8 data = 1
+   [220]
+    0 UInt8 data = 98
+   [221]
+    0 UInt8 data = 56
+   [222]
+    0 UInt8 data = 0
+   [223]
+    0 UInt8 data = 0
+   [224]
+    0 UInt8 data = 8
+   [225]
+    0 UInt8 data = 242
+   [226]
+    0 UInt8 data = 0
+   [227]
+    0 UInt8 data = 24
+   [228]
+    0 UInt8 data = 0
+   [229]
+    0 UInt8 data = 34
+   [230]
+    0 UInt8 data = 86
+   [231]
+    0 UInt8 data = 21
+   [232]
+    0 UInt8 data = 8
+   [233]
+    0 UInt8 data = 0
+   [234]
+    0 UInt8 data = 4
+   [235]
+    0 UInt8 data = 68
+   [236]
+    0 UInt8 data = 0
+   [237]
+    0 UInt8 data = 0
+   [238]
+    0 UInt8 data = 4
+   [239]
+    0 UInt8 data = 0
+   [240]
+    0 UInt8 data = 106
+   [241]
+    0 UInt8 data = 50
+   [242]
+    0 UInt8 data = 0
+   [243]
+    0 UInt8 data = 0
+   [244]
+    0 UInt8 data = 10
+   [245]
+    0 UInt8 data = 242
+   [246]
+    0 UInt8 data = 0
+   [247]
+    0 UInt8 data = 24
+   [248]
+    0 UInt8 data = 0
+   [249]
+    0 UInt8 data = 0
+   [250]
+    0 UInt8 data = 1
+   [251]
+    0 UInt8 data = 0
+   [252]
+    0 UInt8 data = 19
+   [253]
+    0 UInt8 data = 6
+   [254]
+    0 UInt8 data = 88
+   [255]
+    0 UInt8 data = 0
+   [256]
+    0 UInt8 data = 34
+   [257]
+    0 UInt8 data = 70
+   [258]
+    0 UInt8 data = 14
+   [259]
+    0 UInt8 data = 8
+   [260]
+    0 UInt8 data = 0
+   [261]
+    0 UInt8 data = 15
+   [262]
+    0 UInt8 data = 40
+   [263]
+    0 UInt8 data = 0
+   [264]
+    0 UInt8 data = 1
+   [265]
+    0 UInt8 data = 0
+   [266]
+    0 UInt8 data = 96
+   [267]
+    0 UInt8 data = 0
+   [268]
+    0 UInt8 data = 42
+   [269]
+    0 UInt8 data = 166
+   [270]
+    0 UInt8 data = 26
+   [271]
+    0 UInt8 data = 40
+   [272]
+    0 UInt8 data = 0
+   [273]
+    0 UInt8 data = 23
+   [274]
+    0 UInt8 data = 0
+   [275]
+    0 UInt8 data = 112
+   [276]
+    0 UInt8 data = 0
+   [277]
+    0 UInt8 data = 42
+   [278]
+    0 UInt8 data = 70
+   [279]
+    0 UInt8 data = 14
+   [280]
+    0 UInt8 data = 48
+   [281]
+    0 UInt8 data = 0
+   [282]
+    0 UInt8 data = 23
+   [283]
+    0 UInt8 data = 3
+   [284]
+    0 UInt8 data = 144
+   [285]
+    0 UInt8 data = 0
+   [286]
+    0 UInt8 data = 0
+   [287]
+    0 UInt8 data = 16
+   [288]
+    0 UInt8 data = 0
+   [289]
+    0 UInt8 data = 38
+   [290]
+    0 UInt8 data = 86
+   [291]
+    0 UInt8 data = 5
+   [292]
+    0 UInt8 data = 32
+   [293]
+    0 UInt8 data = 0
+   [294]
+    0 UInt8 data = 1
+   [295]
+    0 UInt8 data = 8
+   [296]
+    0 UInt8 data = 0
+   [297]
+    0 UInt8 data = 7
+   [298]
+    0 UInt8 data = 104
+   [299]
+    0 UInt8 data = 0
+   [300]
+    0 UInt8 data = 23
+   [301]
+    0 UInt8 data = 1
+   [302]
+    0 UInt8 data = 24
+   [303]
+    0 UInt8 data = 0
+   [304]
+    0 UInt8 data = 16
+   [305]
+    0 UInt8 data = 69
+   [306]
+    0 UInt8 data = 144
+   [307]
+    0 UInt8 data = 0
+   [308]
+    0 UInt8 data = 7
+   [309]
+    0 UInt8 data = 84
+   [310]
+    0 UInt8 data = 0
+   [311]
+    0 UInt8 data = 31
+   [312]
+    0 UInt8 data = 1
+   [313]
+    0 UInt8 data = 40
+   [314]
+    0 UInt8 data = 0
+   [315]
+    0 UInt8 data = 4
+   [316]
+    0 UInt8 data = 16
+   [317]
+    0 UInt8 data = 71
+   [318]
+    0 UInt8 data = 144
+   [319]
+    0 UInt8 data = 0
+   [320]
+    0 UInt8 data = 31
+   [321]
+    0 UInt8 data = 10
+   [322]
+    0 UInt8 data = 40
+   [323]
+    0 UInt8 data = 0
+   [324]
+    0 UInt8 data = 0
+   [325]
+    0 UInt8 data = 26
+   [326]
+    0 UInt8 data = 32
+   [327]
+    0 UInt8 data = 104
+   [328]
+    0 UInt8 data = 0
+   [329]
+    0 UInt8 data = 106
+   [330]
+    0 UInt8 data = 72
+   [331]
+    0 UInt8 data = 0
+   [332]
+    0 UInt8 data = 0
+   [333]
+    0 UInt8 data = 0
+   [334]
+    0 UInt8 data = 246
+   [335]
+    0 UInt8 data = 15
+   [336]
+    0 UInt8 data = 40
+   [337]
+    0 UInt8 data = 0
+   [338]
+    0 UInt8 data = 17
+   [339]
+    0 UInt8 data = 62
+   [340]
+    0 UInt8 data = 15
+   [341]
+    0 UInt8 data = 1
+   [342]
+    0 UInt8 data = 4
+   [343]
+    0 UInt8 data = 22
+   [344]
+    0 UInt8 data = 1
+   [345]
+    0 UInt8 data = 12
+   [346]
+    0 UInt8 data = 226
+   [347]
+    0 UInt8 data = 1
+   [348]
+    0 UInt8 data = 8
+   [349]
+    0 UInt8 data = 62
+   [350]
+    0 UInt8 data = 2
+   [351]
+    0 UInt8 data = 0
+   [352]
+    0 UInt8 data = 210
+   [353]
+    0 UInt8 data = 1
+   [354]
+    0 UInt8 data = 166
+   [355]
+    0 UInt8 data = 36
+   [356]
+    0 UInt8 data = 71
+   [357]
+    0 UInt8 data = 108
+   [358]
+    0 UInt8 data = 111
+   [359]
+    0 UInt8 data = 98
+   [360]
+    0 UInt8 data = 97
+   [361]
+    0 UInt8 data = 108
+   [362]
+    0 UInt8 data = 115
+   [363]
+    0 UInt8 data = 128
+   [364]
+    0 UInt8 data = 7
+   [365]
+    0 UInt8 data = 24
+   [366]
+    0 UInt8 data = 0
+   [367]
+    0 UInt8 data = 250
+   [368]
+    0 UInt8 data = 3
+   [369]
+    0 UInt8 data = 12
+   [370]
+    0 UInt8 data = 0
+   [371]
+    0 UInt8 data = 0
+   [372]
+    0 UInt8 data = 0
+   [373]
+    0 UInt8 data = 85
+   [374]
+    0 UInt8 data = 110
+   [375]
+    0 UInt8 data = 105
+   [376]
+    0 UInt8 data = 116
+   [377]
+    0 UInt8 data = 121
+   [378]
+    0 UInt8 data = 80
+   [379]
+    0 UInt8 data = 101
+   [380]
+    0 UInt8 data = 114
+   [381]
+    0 UInt8 data = 68
+   [382]
+    0 UInt8 data = 114
+   [383]
+    0 UInt8 data = 97
+   [384]
+    0 UInt8 data = 119
+   [385]
+    0 UInt8 data = 128
+   [386]
+    0 UInt8 data = 1
+   [387]
+    0 UInt8 data = 56
+   [388]
+    0 UInt8 data = 0
+   [389]
+    0 UInt8 data = 0
+   [390]
+    0 UInt8 data = 192
+   [391]
+    0 UInt8 data = 2
+   [392]
+    0 UInt8 data = 31
+   [393]
+    0 UInt8 data = 18
+   [394]
+    0 UInt8 data = 150
+   [395]
+    0 UInt8 data = 2
+   [396]
+    0 UInt8 data = 8
+   [397]
+    0 UInt8 data = 27
+   [398]
+    0 UInt8 data = 254
+   [399]
+    0 UInt8 data = 208
+   [400]
+    0 UInt8 data = 2
+   [401]
+    0 UInt8 data = 15
+   [402]
+    0 UInt8 data = 192
+   [403]
+    0 UInt8 data = 2
+   [404]
+    0 UInt8 data = 11
+   [405]
+    0 UInt8 data = 240
+   [406]
+    0 UInt8 data = 1
+   [407]
+    0 UInt8 data = 134
+   [408]
+    0 UInt8 data = 147
+   [409]
+    0 UInt8 data = 37
+   [410]
+    0 UInt8 data = 135
+   [411]
+    0 UInt8 data = 177
+   [412]
+    0 UInt8 data = 234
+   [413]
+    0 UInt8 data = 210
+   [414]
+    0 UInt8 data = 72
+   [415]
+    0 UInt8 data = 202
+   [416]
+    0 UInt8 data = 190
+   [417]
+    0 UInt8 data = 231
+   [418]
+    0 UInt8 data = 167
+   [419]
+    0 UInt8 data = 30
+   [420]
+    0 UInt8 data = 218
+   [421]
+    0 UInt8 data = 103
+   [422]
+    0 UInt8 data = 102
+   [423]
+    0 UInt8 data = 109
+   [424]
+    0 UInt8 data = 0
+   [425]
+    0 UInt8 data = 47
+   [426]
+    0 UInt8 data = 216
+   [427]
+    0 UInt8 data = 0
+   [428]
+    0 UInt8 data = 192
+   [429]
+    0 UInt8 data = 2
+   [430]
+    0 UInt8 data = 0
+   [431]
+    0 UInt8 data = 15
+   [432]
+    0 UInt8 data = 140
+   [433]
+    0 UInt8 data = 2
+   [434]
+    0 UInt8 data = 32
+   [435]
+    0 UInt8 data = 31
+   [436]
+    0 UInt8 data = 79
+   [437]
+    0 UInt8 data = 244
+   [438]
+    0 UInt8 data = 2
+   [439]
+    0 UInt8 data = 17
+   [440]
+    0 UInt8 data = 2
+   [441]
+    0 UInt8 data = 52
+   [442]
+    0 UInt8 data = 0
+   [443]
+    0 UInt8 data = 144
+   [444]
+    0 UInt8 data = 84
+   [445]
+    0 UInt8 data = 97
+   [446]
+    0 UInt8 data = 114
+   [447]
+    0 UInt8 data = 103
+   [448]
+    0 UInt8 data = 101
+   [449]
+    0 UInt8 data = 116
+   [450]
+    0 UInt8 data = 0
+   [451]
+    0 UInt8 data = 171
+   [452]
+    0 UInt8 data = 171
+   [453]
+    0 UInt8 data = 192
+   [454]
+    0 UInt8 data = 2
+   [455]
+    0 UInt8 data = 32
+   [456]
+    0 UInt8 data = 60
+   [457]
+    0 UInt8 data = 0
+   [458]
+    0 UInt8 data = 192
+   [459]
+    0 UInt8 data = 2
+   [460]
+    0 UInt8 data = 2
+   [461]
+    0 UInt8 data = 28
+   [462]
+    0 UInt8 data = 0
+   [463]
+    0 UInt8 data = 0
+   [464]
+    0 UInt8 data = 192
+   [465]
+    0 UInt8 data = 2
+   [466]
+    0 UInt8 data = 68
+   [467]
+    0 UInt8 data = 101
+   [468]
+    0 UInt8 data = 0
+   [469]
+    0 UInt8 data = 0
+   [470]
+    0 UInt8 data = 3
+   [471]
+    0 UInt8 data = 124
+   [472]
+    0 UInt8 data = 1
+   [473]
+    0 UInt8 data = 16
+   [474]
+    0 UInt8 data = 54
+   [475]
+    0 UInt8 data = 248
+   [476]
+    0 UInt8 data = 1
+   [477]
+    0 UInt8 data = 3
+   [478]
+    0 UInt8 data = 12
+   [479]
+    0 UInt8 data = 0
+   [480]
+    0 UInt8 data = 32
+   [481]
+    0 UInt8 data = 2
+   [482]
+    0 UInt8 data = 64
+   [483]
+    0 UInt8 data = 6
+   [484]
+    0 UInt8 data = 0
+   [485]
+    0 UInt8 data = 68
+   [486]
+    0 UInt8 data = 128
+   [487]
+    0 UInt8 data = 63
+   [488]
+    0 UInt8 data = 0
+   [489]
+    0 UInt8 data = 0
+   [490]
+    0 UInt8 data = 8
+   [491]
+    0 UInt8 data = 0
+   [492]
+    0 UInt8 data = 57
+   [493]
+    0 UInt8 data = 128
+   [494]
+    0 UInt8 data = 63
+   [495]
+    0 UInt8 data = 62
+   [496]
+    0 UInt8 data = 121
+   [497]
+    0 UInt8 data = 1
+   [498]
+    0 UInt8 data = 30
+   [499]
+    0 UInt8 data = 1
+   [500]
+    0 UInt8 data = 245
+   [501]
+    0 UInt8 data = 0
+   [502]
+    0 UInt8 data = 80
+   [503]
+    0 UInt8 data = 0
+   [504]
+    0 UInt8 data = 0
+   [505]
+    0 UInt8 data = 0
+   [506]
+    0 UInt8 data = 0
+   [507]
+    0 UInt8 data = 0
+ 0 vector m_Dependencies
+  1 Array Array (0 items)
+   0 int size = 0
+ 0 map m_NonModifiableTextures
+  0 Array Array (0 items)
+   0 int size = 0
+ 1 bool m_ShaderIsBaked = true
