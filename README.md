@@ -1,3 +1,10 @@
+## Mirrored from the chinese repo: https://code.moenext.com/sherry_chaos/MDPro3
+Currently version 1.2.4
+All credit goes to sherry_chaos on moenext
+
+## I'll be making changes to this as I want to make my own version, but I'll keep the original files in a seperate branch.
+Rest of the Readme is straight from the other repo.
+
 ## MDPro3
 
 A new version of YGOPro in Unity with MasterDuel Assets.
