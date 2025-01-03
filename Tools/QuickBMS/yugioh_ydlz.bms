@@ -1,0 +1,13 @@
+# Yu-Gi-Oh! Duel Links
+
+comtype zlib_noerror
+idstring "YDLZ"
+get VER long    # 1
+savepos OFFSET
+get SIZE asize
+math SIZE - OFFSET
+get NAME basename
+get EXT extension
+string NAME + "."
+string NAME + EXT
+clog NAME OFFSET SIZE SIZE

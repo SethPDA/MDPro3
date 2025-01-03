@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff3c8553a0434984fb7d5168fe773f29, type: 3}
+  m_Name: DuelPrefabs
+  m_EditorClassIdentifier: 
+  cardModel: {fileID: 1801160342276106, guid: eca8eb3e834857643bf369534f625d4e, type: 3}
+  duelButton: {fileID: 3999006118112400323, guid: cb936a9c6b1ef404eae4f628df36bc06, type: 3}
+  duelLpText: {fileID: 2323089295963095394, guid: dca0c795f9a1e79409d1ab8f20e92b61, type: 3}
+  duelChatItemMe: {fileID: 6436722705667500942, guid: 41775c601cbdb2c438f1313480ea8dbc, type: 3}
+  duelChatItemOp: {fileID: 8381720085417963831, guid: b6b53787aecd25243959e572f826494f, type: 3}
+  duelDrawPhaseNear: {fileID: 5856038741196950936, guid: 898af3292dd93df44a57e0dc79a2ea24, type: 3}
+  duelDrawPhaseFar: {fileID: 5856038741196950936, guid: d053774d773c07140bb960cae08adee7, type: 3}
+  duelStandbyPhaseNear: {fileID: 5856038741196950936, guid: 76efbc5713908a54581e6d0754e3a740, type: 3}
+  duelStandbyPhaseFar: {fileID: 5856038741196950936, guid: 16ff47dbe0623c7408752aa7d0642c56, type: 3}
+  duelMain1PhaseNear: {fileID: 5856038741196950936, guid: 4da2900934349274e96d625e1cd378b2, type: 3}
+  duelMain1PhaseFar: {fileID: 5856038741196950936, guid: 960febf590967ec428538ba83ec08606, type: 3}
+  duelBattlePhaseNear: {fileID: 5856038741196950936, guid: b1be19c9631eb4d42b9930ee24ccb727, type: 3}
+  duelBattlePhaseFar: {fileID: 5856038741196950936, guid: ca39cb26fe0a283449939ae9ce97639c, type: 3}
+  duelMain2PhaseNear: {fileID: 5856038741196950936, guid: b3bf9b73f645ae443bb5e57b2476e835, type: 3}
+  duelMain2PhaseFar: {fileID: 5856038741196950936, guid: 80d0b714b754cd8479c61af42d2264d0, type: 3}
+  duelEndPhaseNear: {fileID: 5856038741196950936, guid: 1a9e864fd8fea6146a9ee15b010b1d38, type: 3}
+  duelEndPhaseFar: {fileID: 5856038741196950936, guid: 6d72a386e15498f4c9f143c4d6296e29, type: 3}
+  duelTurnChangeNear: {fileID: 3294841327996425202, guid: ba7c25701677bfe46844c02aae6862fb, type: 3}
+  duelTurnChangeFar: {fileID: 3294841327996425202, guid: 80e9603c8ea17d242a17e6cf9fda143e, type: 3}
+  duelLogNewTurn: {fileID: 7203926964080664684, guid: 43730ecf495ffd54fa0055a0e8552919, type: 3}
+  duelLogNewPhase: {fileID: 524344449574876474, guid: 917e25ff614d7684bb008f81ab93dd12, type: 3}
+  duelLogSingleCard: {fileID: 5780536312215202854, guid: 74b7ab0561ca03d49853f057b8f11347, type: 3}
+  duelLogSingleCard2: {fileID: 5780536312215202854, guid: 94318d2c206e04e4e8191089c6545f5f, type: 3}
+  duelLogAttack: {fileID: 2151824643533788444, guid: d2e06601bdd6db042aba7801a68a79f7, type: 3}
+  duelLogChaining: {fileID: 1387090791483376203, guid: 455ef5c0fdfc98247b8e498696ea03c6, type: 3}
+  duelLogText: {fileID: 1387090791483376203, guid: f167322dbdf4f07469022354451498bd, type: 3}
+  duelLogText2: {fileID: 1387090791483376203, guid: 574e04a1d6187b145848ebd7739eb746, type: 3}
+  duelLogTextWithCard: {fileID: 1387090791483376203, guid: 518bbf4ee6de60f45b715d1a0d53471b, type: 3}
+  duelLogTextWithCard2: {fileID: 1387090791483376203, guid: 817f6d2fe893e014fa8cb27ee51d0b7c, type: 3}
+  duelLogLpChange: {fileID: 3150024044697431290, guid: dc378e95e2ba7464b978203e6a5108b1, type: 3}
+  duelLogCounter: {fileID: 4080254034130760786, guid: ab80aff3c66e22a45bc8388643a8e1c2, type: 3}

@@ -1,0 +1,35 @@
+namespace YgomGame.TextIDs
+{
+	public enum IDS_SCENARIOGATE0017
+	{
+		TITLE1001 = 0,
+		TXT1001 = 1,
+		TXT1002 = 2,
+		TXT1003 = 3,
+		TXT1004 = 4,
+		TXT1005 = 5,
+		TXT1006 = 6,
+		TXT1007 = 7,
+		TXT1008 = 8,
+		TXT1009 = 9,
+		TXT1010 = 10,
+		TXT1011 = 11,
+		TXT1012 = 12,
+		TXT2001 = 13,
+		TXT2002 = 14,
+		TXT2003 = 15,
+		TXT2004 = 16,
+		TXT2005 = 17,
+		TXT2006 = 18,
+		TXT2007 = 19,
+		TXT2008 = 20,
+		TXT3001 = 21,
+		TXT3002 = 22,
+		TXT3003 = 23,
+		TXT3004 = 24,
+		TXT3005 = 25,
+		TXT3006 = 26,
+		TXT3007 = 27,
+		TXT3008 = 28
+	}
+}
