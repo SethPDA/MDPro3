@@ -3,13 +3,14 @@
 
 
 ## I'll be making changes to this as I want to make my own version, but I'll keep the original files in a seperate branch.
-Rest of the Readme is straight from the other repo.
 
 ## MDPro3
 
 A new version of YGOPro in Unity with MasterDuel Assets.
 
 Unity version: 6000.0.10f1
+
+Download link for the exact Unity: https://unity.com/releases/editor/whats-new/6000.0.10#installs
 
 ### Other required folders
 
